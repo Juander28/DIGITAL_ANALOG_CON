@@ -5,7 +5,7 @@
 
 `default_nettype none
 
-module DIGITAL_ANALOG_CON (
+module tt_um_DIGITAL_ANALOG_CON (
     input  wire       VGND,
     input  wire       VDPWR,    // 1.8v power supply
 //    input  wire       VAPWR,    // 3.3v power supply

@@ -8,12 +8,12 @@
 
 # Change the settings below to match your design:
 # ------------------------------------------------
-set TOP_LEVEL_CELL     DIGITAL_ANALOG_CON
+set TOP_LEVEL_CELL     tt_um_DIGITAL_ANALOG_CON
 set TEMPLATE_FILE      tt_analog_2x2.def
 set POWER_STRIPE_WIDTH 2um                 ;# The minimum width is 1.2um
 
 set POWER_STRIPES {
-    VDPWR 1um
+    VDPWR 8um
     VGND  4um
 }
 # If you use the 3v3 template, uncomment the line below:
